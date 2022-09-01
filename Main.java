@@ -12,7 +12,7 @@ public class Main {
     }
 
 //    Метод принимает строку с арифметическим выражением между двумя числами и возвращает строку с результатом их выполнения.
-    public static String calc(String input) throws CatchingExceptions {
+    static String calc(String input) throws CatchingExceptions {
         String result = new String(" ");
         int resultArab = 0;
         String resultRoman = "";
@@ -59,7 +59,7 @@ public class Main {
     }
 
     // проверям на достаточность символов в строке, введенной пользователем
-    public static void checkInputLength(String str) throws CatchingExceptions{
+    static void checkInputLength(String str) throws CatchingExceptions{
         if (str.isEmpty())  {
             throw new CatchingExceptions("Нельзя вводить пустую строку");
         } else if (str.length() < 4){

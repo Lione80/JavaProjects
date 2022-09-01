@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // Клас для римских цифр
-public class RomanNumbers {
+class RomanNumbers {
     //Метод принимает строку с римской цифрой, возврщает арбскую цифру
     int romanToArab(String s){
         Map<Character, Integer> map = new HashMap();
